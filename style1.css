@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    background: whitesmoke
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    background-color:#3b5998;
+    
+}
+.navbar img{
+    margin-left: 13%;
+    margin-top: 30px;
+    
+}
+.but button{
+  background-color: rgb(7, 165, 7);
+  height: 35px;
+  /* button ko height dene ke liye   */
+  width: 120px;
+  /* button ke text ko size dene  ke liye  */
+  font-size: 11px ;
+  font-weight: bold;
+  /* button ke coner k htne ke liye */
+  border-radius: 3px;
+  /* this is for color in button */
+  -webkit-text-fill-color: beige ;
+  /* i don't want button's boder */
+  border:none;
+  /* i don't want outline boder  */
+  outline:none;
+   display: inline;
+   margin-left: 28%; 
+ 
+  margin-right:11%;
+  margin-top:-4%; 
+  position: absolute;
+}
+/* this is for button active  */
+.but button:hover{
+/* this is for bg color After touch the button */
+background-color:green;
+}
+.box{
+    height: 284px;
+    width: 614px;
+    top:30%;
+    left:30%;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    background: #fff
+}
+.box h5{
+    font-size: 20px;
+    text-align: center
+}
+.email, .pass{
+    height: 30px;
+    width: 300px;
+    display: block;
+    margin-left: 150px;
+    border: -2px solid ;
+    margin-bottom: 10px;
+    outline:none;
+}
+input[type=text]{
+    padding-left: 15px;
+}
+.log{
+    height: 45px;
+    width: 310px;
+    border: 0;
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.log:hover{
+
+}
+.link a{
+    text-decoration: none;
+    color: #3b5998
+}
+.link a:hover{
+   color:#3b5998
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color:white;
+    position : relative;
+    /* bottom : 7; */
+    clear: both;
+    margin-top : 500px;
+    display: block;
+    
+}
+
+#footer_text
+{
+ width:100%;
+ clear:both;
+ float:left;
+ min-width:995px;
+ background-color:white;
+ text-align:left;
+ position: relative
+}
+#footer1
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ border-bottom:1px solid #E6E6E6;
+ height:200px;
+ line-height:30px;
+ font-size:12px;
+ color:#848484;
+ 
+}
+#footer1 a
+{
+ color:#365899;
+ display:inline;
+ margin-left:10px;
+ text-decoration:none;
+ 
+ position: relative;
+ top: 170px;
+}
+#footer1 a:hover
+{
+ text-decoration:underline;
+}
+#footer2
+{
+ width:980px;
+ margin:0px auto;
+ padding:0px;
+ font-size:12px;
+ color:#848484;
+}
+#footer2 a
+{
+ color:#365899;
+ display:inline-block;
+ margin:5px;
+ margin-left:0px;
+ min-width:80px;
+ text-decoration:none;
+}
